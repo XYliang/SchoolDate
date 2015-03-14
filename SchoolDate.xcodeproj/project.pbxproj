@@ -19,6 +19,11 @@
 		38C119771AB41F9B004888A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C1195F1AB41F9B004888A5 /* UIKit.framework */; };
 		38C1197F1AB41F9B004888A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38C1197D1AB41F9B004888A5 /* InfoPlist.strings */; };
 		38C119811AB41F9B004888A5 /* SchoolDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C119801AB41F9B004888A5 /* SchoolDateTests.m */; };
+		38C119A91AB4200D004888A5 /* SDAssistantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C1198E1AB4200D004888A5 /* SDAssistantViewController.m */; };
+		38C119AA1AB4200D004888A5 /* SDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C119941AB4200D004888A5 /* SDTabBarViewController.m */; };
+		38C119AB1AB4200D004888A5 /* SDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C1199B1AB4200D004888A5 /* SDMeViewController.m */; };
+		38C119AC1AB4200D004888A5 /* UIImage+SDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C119A01AB4200D004888A5 /* UIImage+SDImage.m */; };
+		38C119AD1AB4200D004888A5 /* SDSchoolDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C119A61AB4200D004888A5 /* SDSchoolDateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +43,26 @@
 		38C1195F1AB41F9B004888A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		38C119631AB41F9B004888A5 /* SchoolDate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchoolDate-Info.plist"; sourceTree = "<group>"; };
 		38C119651AB41F9B004888A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		38C119671AB41F9B004888A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		38C119691AB41F9B004888A5 /* SchoolDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SchoolDate-Prefix.pch"; sourceTree = "<group>"; };
-		38C1196A1AB41F9B004888A5 /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
-		38C1196B1AB41F9B004888A5 /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
+		38C119671AB41F9B004888A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../../../../SchoolDate/SchoolDate/main.m; sourceTree = "<group>"; };
+		38C119691AB41F9B004888A5 /* SchoolDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SchoolDate-Prefix.pch"; path = "../../../../../SchoolDate/SchoolDate/SchoolDate-Prefix.pch"; sourceTree = "<group>"; };
+		38C1196A1AB41F9B004888A5 /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDAppDelegate.h; path = ../../../../../SchoolDate/SchoolDate/SDAppDelegate.h; sourceTree = "<group>"; };
+		38C1196B1AB41F9B004888A5 /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDAppDelegate.m; path = ../../../../../SchoolDate/SchoolDate/SDAppDelegate.m; sourceTree = "<group>"; };
 		38C1196D1AB41F9B004888A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38C119731AB41F9B004888A5 /* SchoolDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C119741AB41F9B004888A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		38C1197C1AB41F9B004888A5 /* SchoolDateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchoolDateTests-Info.plist"; sourceTree = "<group>"; };
 		38C1197E1AB41F9B004888A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38C119801AB41F9B004888A5 /* SchoolDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolDateTests.m; sourceTree = "<group>"; };
+		38C1198D1AB4200D004888A5 /* SDAssistantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAssistantViewController.h; sourceTree = "<group>"; };
+		38C1198E1AB4200D004888A5 /* SDAssistantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAssistantViewController.m; sourceTree = "<group>"; };
+		38C119931AB4200D004888A5 /* SDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTabBarViewController.h; sourceTree = "<group>"; };
+		38C119941AB4200D004888A5 /* SDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTabBarViewController.m; sourceTree = "<group>"; };
+		38C1199A1AB4200D004888A5 /* SDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMeViewController.h; sourceTree = "<group>"; };
+		38C1199B1AB4200D004888A5 /* SDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMeViewController.m; sourceTree = "<group>"; };
+		38C1199F1AB4200D004888A5 /* UIImage+SDImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SDImage.h"; sourceTree = "<group>"; };
+		38C119A01AB4200D004888A5 /* UIImage+SDImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SDImage.m"; sourceTree = "<group>"; };
+		38C119A51AB4200D004888A5 /* SDSchoolDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSchoolDateViewController.h; sourceTree = "<group>"; };
+		38C119A61AB4200D004888A5 /* SDSchoolDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSchoolDateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +122,8 @@
 		38C119611AB41F9B004888A5 /* SchoolDate */ = {
 			isa = PBXGroup;
 			children = (
-				38C1196A1AB41F9B004888A5 /* SDAppDelegate.h */,
-				38C1196B1AB41F9B004888A5 /* SDAppDelegate.m */,
-				38C1196D1AB41F9B004888A5 /* Images.xcassets */,
+				38C1198A1AB4200D004888A5 /* Classes */,
+				38C1199D1AB4200D004888A5 /* Other */,
 				38C119621AB41F9B004888A5 /* Supporting Files */,
 			);
 			path = SchoolDate;
@@ -118,10 +132,9 @@
 		38C119621AB41F9B004888A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38C1196D1AB41F9B004888A5 /* Images.xcassets */,
 				38C119631AB41F9B004888A5 /* SchoolDate-Info.plist */,
 				38C119641AB41F9B004888A5 /* InfoPlist.strings */,
-				38C119671AB41F9B004888A5 /* main.m */,
-				38C119691AB41F9B004888A5 /* SchoolDate-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +155,188 @@
 				38C1197D1AB41F9B004888A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38C1198A1AB4200D004888A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38C119A31AB4200D004888A5 /* SchoolDate */,
+				38C119911AB4200D004888A5 /* Main */,
+				38C1198B1AB4200D004888A5 /* Assistant */,
+				38C119971AB4200D004888A5 /* Me */,
+			);
+			name = Classes;
+			path = "../../校缘/SchoolDate/SchoolDate/Classes";
+			sourceTree = "<group>";
+		};
+		38C1198B1AB4200D004888A5 /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				38C1198C1AB4200D004888A5 /* Controller */,
+				38C1198F1AB4200D004888A5 /* Model */,
+				38C119901AB4200D004888A5 /* View */,
+			);
+			path = Assistant;
+			sourceTree = "<group>";
+		};
+		38C1198C1AB4200D004888A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38C1198D1AB4200D004888A5 /* SDAssistantViewController.h */,
+				38C1198E1AB4200D004888A5 /* SDAssistantViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38C1198F1AB4200D004888A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38C119901AB4200D004888A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38C119911AB4200D004888A5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				38C119921AB4200D004888A5 /* Controller */,
+				38C119951AB4200D004888A5 /* Model */,
+				38C119961AB4200D004888A5 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		38C119921AB4200D004888A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38C119931AB4200D004888A5 /* SDTabBarViewController.h */,
+				38C119941AB4200D004888A5 /* SDTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38C119951AB4200D004888A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38C119961AB4200D004888A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38C119971AB4200D004888A5 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				38C119981AB4200D004888A5 /* Controller */,
+				38C119991AB4200D004888A5 /* Model */,
+				38C1199A1AB4200D004888A5 /* SDMeViewController.h */,
+				38C1199B1AB4200D004888A5 /* SDMeViewController.m */,
+				38C1199C1AB4200D004888A5 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		38C119981AB4200D004888A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38C119991AB4200D004888A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38C1199C1AB4200D004888A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38C1199D1AB4200D004888A5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				38C1199E1AB4200D004888A5 /* Category */,
+				38C119A11AB4200D004888A5 /* Lib */,
+				38C119A21AB4200D004888A5 /* Tool */,
+				38C1196A1AB41F9B004888A5 /* SDAppDelegate.h */,
+				38C1196B1AB41F9B004888A5 /* SDAppDelegate.m */,
+				38C119671AB41F9B004888A5 /* main.m */,
+				38C119691AB41F9B004888A5 /* SchoolDate-Prefix.pch */,
+			);
+			name = Other;
+			path = "../../校缘/SchoolDate/SchoolDate/Classes/Other";
+			sourceTree = "<group>";
+		};
+		38C1199E1AB4200D004888A5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				38C1199F1AB4200D004888A5 /* UIImage+SDImage.h */,
+				38C119A01AB4200D004888A5 /* UIImage+SDImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		38C119A11AB4200D004888A5 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		38C119A21AB4200D004888A5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		38C119A31AB4200D004888A5 /* SchoolDate */ = {
+			isa = PBXGroup;
+			children = (
+				38C119A41AB4200D004888A5 /* Controller */,
+				38C119A71AB4200D004888A5 /* Model */,
+				38C119A81AB4200D004888A5 /* View */,
+			);
+			path = SchoolDate;
+			sourceTree = "<group>";
+		};
+		38C119A41AB4200D004888A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38C119A51AB4200D004888A5 /* SDSchoolDateViewController.h */,
+				38C119A61AB4200D004888A5 /* SDSchoolDateViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38C119A71AB4200D004888A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38C119A81AB4200D004888A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +435,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C119AC1AB4200D004888A5 /* UIImage+SDImage.m in Sources */,
 				38C119681AB41F9B004888A5 /* main.m in Sources */,
+				38C119AA1AB4200D004888A5 /* SDTabBarViewController.m in Sources */,
+				38C119A91AB4200D004888A5 /* SDAssistantViewController.m in Sources */,
 				38C1196C1AB41F9B004888A5 /* SDAppDelegate.m in Sources */,
+				38C119AB1AB4200D004888A5 /* SDMeViewController.m in Sources */,
+				38C119AD1AB4200D004888A5 /* SDSchoolDateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
